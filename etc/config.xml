@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<retirarnaloja>
+				<model>Funarbe\RetirarNaLoja\Model\Carrier\RetirarNaLoja</model>
+				<active>0</active>
+				<title>Supermercado Escola</title>
+				<name>Entrega</name>
+				<price>0.00</price>
+				<specificerrmsg>A entrega na loja não está disponível. Para usar este método de entrega, entre em contato conosco.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</retirarnaloja>
+		</carriers>
+	</default>
+</config>
